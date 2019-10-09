@@ -1,11 +1,43 @@
 {
-  "name": "beginnersteps",
+  "name": "begginerssteps",
+  "private": true,
+  "description": "A simple 1-page demo website",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "Brayden Phillips <bpofficial@icloud.com>",
+  "dependencies": {
+    "gatsby": "^2.15.34",
+    "gatsby-image": "^2.2.25",
+    "gatsby-plugin-manifest": "^2.2.21",
+    "gatsby-plugin-offline": "^3.0.13",
+    "gatsby-plugin-react-helmet": "^3.1.11",
+    "gatsby-plugin-sharp": "^2.2.29",
+    "gatsby-source-filesystem": "^2.1.31",
+    "gatsby-transformer-sharp": "^2.2.21",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-helmet": "^5.2.1"
   },
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bpofficial/beginnerssteps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
 }
